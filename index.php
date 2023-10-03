@@ -324,7 +324,7 @@ echo "<script>window.location.href ='index.php'</script>";
                     <div class="single-key" style="background-color:#319997;">
                         <i class="fas fa-heartbeat"style=" background-color:#319997; color:white;"></i>
                         <p style="font-family: mouse-500, Arial, Helvetica, sans-serif; font-size:20px; color:#f5f3e6;  margin: -40px 0px 8px 0px;">QUALITY CARE</p>
-                        <p style="color: #e1dddd;     text-align: center;">We are dedicated to the highest quality of care. Our staff is highly experienced and committed to health, safety and evidence based natural birth practices. We have a proven track record of excellent outcomes.</p>
+                        <p style="color: #e1dddd;     text-align: center;">We are dedicated to the highest quality care. Our staff is highly experienced and committed to health, safety and evidence based natural birth practices. We have a proven track record of excellent outcomes.</p>
                     </div>
                 </div>
 
