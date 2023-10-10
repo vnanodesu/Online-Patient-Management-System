@@ -12,7 +12,7 @@ CREATE TABLE `admin` (
 
 
 INSERT INTO `admin` (`id`, `username`, `password`, `updationDate`) VALUES
-(1, 'admin', 'Test@12345', '30-10-2022 11:42:05 AM');
+(1, 'admin', 'Pw@12345', '30-10-2022 11:42:05 AM');
 
 --------------------------------------------------------
 
@@ -153,7 +153,7 @@ CREATE TABLE `tblpage` (
 
 INSERT INTO `tblpage` (`ID`, `PageType`, `PageTitle`, `PageDescription`, `Email`, `MobileNumber`, `UpdationDate`, `OpenningTime`) VALUES
 (1, 'aboutus', 'About Us', '<ul style=\"padding: 0px; margin-right: 0px; margin-bottom: 1.313em; margin-left: 1.655em;\" times=\"\" new=\"\" roman\";=\"\" font-size:=\"\" 14px;=\"\" text-align:=\"\" center;=\"\" background-color:=\"\" rgb(255,=\"\" 246,=\"\" 246);\"=\"\"><li style=\"text-align: left;\"><font color=\"#000000\">The Hospital Management System (HMS) is designed for Any Hospital to replace their existing manual, paper based system. The new system is to control the following information; patient information, room availability, staff and operating room schedules, and patient invoices. These services are to be provided in an efficient, cost effective manner, with the goal of reducing the time and resources currently required for such tasks.</font></li><li style=\"text-align: left;\"><font color=\"#000000\">A significant part of the operation of any hospital involves the acquisition, management and timely retrieval of great volumes of information. This information typically involves; patient personal information and medical history, staff information, room and ward scheduling, staff scheduling, operating theater scheduling and various facilities waiting lists. All of this information must be managed in an efficient and cost wise fashion so that an institution\'s resources may be effectively utilized HMS will automate the management of the hospital making it more efficient and error free. It aims at standardizing data, consolidating data ensuring data integrity and reducing inconsistencies.&nbsp;</font></li></ul>', NULL, NULL, '2020-05-20 07:21:52', NULL),
-(2, 'contactus', 'Contact Details', 'D-204, Hole Town South West, Delhi-110096,India', 'info@gmail.com', 1122334455, '2020-05-20 07:24:07', '9 am To 8 Pm');
+(2, 'contactus', 'Contact Details', 'D-204, Sta. Rosa Laguna, Roseville,Philippines', 'info@gmail.com', 1122334455, '2020-05-20 07:24:07', '9 am To 8 Pm');
 
 -- --------------------------------------------------------
 
@@ -180,7 +180,7 @@ CREATE TABLE `tblpatient` (
 --
 
 INSERT INTO `tblpatient` (`ID`, `Docid`, `PatientName`, `PatientContno`, `PatientEmail`, `PatientStatus`, `PatientAdd`, `PatientAge`, `PatientMedhis`, `CreationDate`, `UpdationDate`) VALUES
-(1, 1, 'Amit Kumar', 1231231230, 'amitk@gmail.com', 'male', 'New Delhi india', 35, 'NA', '2022-11-06 13:18:31', NULL);
+(1, 1, 'Hazel Tinasas', 1231231230, 'htinasas@email.com', 'female', 'Laguna Philippines', 25, 'NA', '2022-11-06 13:18:31', NULL);
 
 -- --------------------------------------------------------
 
@@ -203,10 +203,10 @@ CREATE TABLE `userlog` (
 --
 
 INSERT INTO `userlog` (`id`, `uid`, `username`, `userip`, `loginTime`, `logout`, `status`) VALUES
-(1, 1, 'johndoe12@test.com', 0x3a3a3100000000000000000000000000, '2022-11-06 12:14:11', NULL, 1),
-(2, 1, 'johndoe12@test.com', 0x3a3a3100000000000000000000000000, '2022-11-06 12:21:20', '06-11-2022 05:53:00 PM', 1),
-(3, NULL, 'amitk@gmail.com', 0x3a3a3100000000000000000000000000, '2022-11-06 13:15:43', NULL, 0),
-(4, 2, 'amitk@gmail.com', 0x3a3a3100000000000000000000000000, '2022-11-06 13:15:58', '06-11-2022 06:50:46 PM', 1);
+(1, 1, 'jkz@email.com', 0x3a3a3100000000000000000000000000, '2022-11-06 12:14:11', NULL, 1),
+(2, 1, 'nanodesu07@email.com', 0x3a3a3100000000000000000000000000, '2022-11-06 12:21:20', '06-11-2022 05:53:00 PM', 1),
+(3, NULL, 'ella25@gmail.com', 0x3a3a3100000000000000000000000000, '2022-11-06 13:15:43', NULL, 0),
+(4, 2, 'shinoa@email.com', 0x3a3a3100000000000000000000000000, '2022-11-06 13:15:58', '06-11-2022 06:50:46 PM', 1);
 
 -- --------------------------------------------------------
 
@@ -231,8 +231,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `fullName`, `address`, `city`, `status`, `email`, `password`, `regDate`, `updationDate`) VALUES
-(1, 'John Doe', 'A 123 ABC Apartment GZB 201017', 'Ghaziabad', 'male', 'johndoe12@test.com', 'f925916e2754e5e03f75dd58a5733251', '2022-11-06 12:13:56', NULL),
-(2, 'Amit kumar', 'new Delhi india', 'New Delhi', 'male', 'amitk@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2022-11-06 13:15:32', NULL);
+(1, 'Hazel Tinasas', 'A 123 ABC Apartment GZB 201017', 'Phillipines', 'female', 'htinasas@email.com', 'f925916e2754e5e03f75dd58a5733251', '2022-11-06 12:13:56', NULL),
+(2, 'Junella Magalong', 'Sta Rosa Laguna', 'Philippines', 'female', 'ella25@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2022-11-06 13:15:32', NULL);
 
 --
 -- Indexes for dumped tables
